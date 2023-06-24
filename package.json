@@ -1,0 +1,30 @@
+{
+  "name": "snipper-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "withGlobalTauri": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^2.0.4",
+    "@tauri-apps/cli": "^1.4.0",
+    "@tsconfig/svelte": "^4.0.1",
+    "svelte": "^3.58.0",
+    "svelte-check": "^3.3.1",
+    "tslib": "^2.5.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.9"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^1.4.0",
+    "@types/node": "^20.3.1",
+    "node-sass": "^9.0.0",
+    "sass": "^1.63.6",
+    "svelte-copy": "^1.3.2"
+  }
+}
