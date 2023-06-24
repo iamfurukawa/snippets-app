@@ -7,7 +7,7 @@
     "distDir": "../dist"
   },
   "package": {
-    "productName": "snipper-app",
+    "productName": "snippet-app",
     "version": "0.1.0"
   },
   "tauri": {
@@ -40,7 +40,7 @@
         "icons/icon.icns",
         "icons/icon.ico"
       ],
-      "identifier": "com.tauri.dev",
+      "identifier": "br.com.iamfurukawa.snippetapp",
       "longDescription": "",
       "macOS": {
         "entitlements": null,
@@ -69,7 +69,7 @@
         "fullscreen": false,
         "height": 600,
         "resizable": true,
-        "title": "Snipper",
+        "title": "Snippet",
         "width": 800,
         "visible": false,
         "decorations": false,
